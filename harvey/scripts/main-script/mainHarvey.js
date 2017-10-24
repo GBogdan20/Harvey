@@ -38,8 +38,9 @@ function outputFormation(question) {
   var answer = 'I cannot answer this question';
   
   if (question == 'What is the weather?') {
-    answer = 
-	    
+    answer = 'Rainy';
+  }
+	
   if (question == 'How are you?') {
     answer = 'I am fine';
   }
