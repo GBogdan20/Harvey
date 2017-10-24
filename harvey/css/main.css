@@ -1,5 +1,5 @@
 			body { 
-				background-color: #DCDCDC;
+				background-color: #0a97ad;
 				position:fixed;
    				top: 0px;
     			bottom: 0px;
@@ -33,7 +33,7 @@
 			#all { position: relative;}
 			.textTitle {
 				color: 	#90EE90; 
-				font-family: Helvetica;
+				font-family: Comic Sans;
 				font-size: 50px;
 				margin-left: 95px;
 				position: relative;
@@ -44,7 +44,7 @@
 			#mainHeader {
 				width: 103%;
 				height: 93px;
-				background-color: white;
+				background-color: cyan;
 				position: relative;
 				top: -80px;
 				left: -1%;
@@ -107,7 +107,7 @@
 					100% {margin-top: 0px;}
 			}
 			textarea {
-				background-color: purple;
+				background-color: white;
 				border: 2px solid deepskyblue;
 				border-radius: 15px;
 				font-size: 20px;
