@@ -37,6 +37,9 @@ function obtainInput(e) {
 function outputFormation(question) {
   var answer = 'I cannot answer this question';
   
+  if (question == 'What is the weather?') {
+    answer = 
+	    
   if (question == 'How are you?') {
     answer = 'I am fine';
   }
