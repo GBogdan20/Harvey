@@ -40,11 +40,9 @@ function outputFormation(question) {
   if (question == 'What is the weather?') {
     answer = 'Rainy';
   }
-	
   if (question == 'How are you?') {
     answer = 'I am fine';
   }
-
   if (question == 'hey') {
     answer = 'Hello';
   }
