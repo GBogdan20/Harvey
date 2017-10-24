@@ -1,0 +1,252 @@
+			body { 
+				background-color: #DCDCDC;
+				position:fixed;
+   				top: 0px;
+    			bottom: 0px;
+   				left:0px;
+   				right:0px;
+			}
+			img {
+				width: 80px;
+				height: 80px;
+				z-index: 9;
+				margin-bottom: -64px;
+				position: relative;
+				right:0;
+			}
+			#allHeader { 
+				visibility: visible;
+				position: relative;
+				top: 0px;
+				opacity: 1;
+				-webkit-animation: allHeader 2s;
+				animation: allHeader 2s;
+				}
+			@-webkit-keyframes allHeader {
+				0% {opacity: 0;}
+				100% {opacity: 1;}
+			}
+			@keyframes allHeader {
+				0% {opacity: 0;}
+				100% {opacity: 1;}
+			}
+			#all { position: relative;}
+			.textTitle {
+				color: 	#90EE90; 
+				font-family: Helvetica;
+				font-size: 50px;
+				margin-left: 95px;
+				position: relative;
+				top: -40px;
+				left: 20px;
+				
+			}
+			#mainHeader {
+				width: 103%;
+				height: 93px;
+				background-color: white;
+				position: relative;
+				top: -80px;
+				left: -1%;
+				right: 0;
+				margin: auto;
+			}
+			#dialog {
+				max-width: 850px;
+				height: 400px;
+				background: white;
+				border-radius: 5px;
+				overflow: hidden;
+				overflow-y: scroll;
+				position: relative;
+				top: -700px;
+				opacity: 1;
+				transform: scale(1, 1); 
+				-webkit-animation: dialogMove 3s;
+				animation: dialogMove 3s;
+				-webkit-transition: box-shadow 1s;
+				transition: box-shadow 1s;
+				-webkit-transition: transform 1s;
+				transition: transform 1s;
+				-webkit-transition-timing-function: ease-in-out;
+				z-index: 0;
+			}
+			#dialog:hover {
+				transform: scale(1.025, 1.025);
+				box-shadow: 0px 10px 10px darkgrey;
+			}
+
+			@-webkit-keyframes dialogMove {
+				0% {opacity: 0;}
+				100% {opacity: 1;}
+			}
+			@keyframes dialogMove {
+				0% {opacity: 0;}
+				100% {opacity: 1;}
+			}
+			#inputText {
+				width: 616px;
+				height: 40px;
+				outline: none;
+				border: 0;
+				color: #000;
+				border-radius: 5px;
+				font-size: 20px;
+				position: relative;
+				top: -650px;
+				z-index: 16;
+				-webkit-animation: txt 2s;
+				animation: txt 2s;
+			}
+			@-webkit-keyframes txt {
+					0% {margin-top: 150px;}
+					100% {margin-top: 0px;}
+			}
+			@keyframes txt {
+					0% {margin-top: 150px;}
+					100% {margin-top: 0px;}
+			}
+			textarea {
+				background-color: purple;
+				border: 2px solid deepskyblue;
+				border-radius: 15px;
+				font-size: 20px;
+				z-index: 11;
+				padding: 10px 10px;
+				box-shadow: 20px 20px 20px lightgrey;
+			}
+			#prompt1 { 
+				visibility: hidden;
+				position: relative;
+				top: 150px;
+			}
+			#prompt2 { 
+				visibility: hidden;
+				position: relative;
+				top: 5px;
+			}
+			#prompt3 { 
+				visibility: hidden;
+				position: relative;
+				top: -1030px;
+			}
+			#btnPrompt {
+				visibility: hidden;
+				width: 70px;
+				height: 30px;
+				border-radius: 3px;
+				position: relative;
+				left: 450px;
+				top: -170px;
+				z-index: 20;
+				background-color: white;
+				-webkit-transition: background-color 2s;
+				color: deepskyblue;
+  				outline:none;
+  				font-family: Helvetica;
+  				font-weight: lighter;
+  				font-size: 15px;
+  				border: 1px solid deepskyblue;
+  				box-shadow: 20px 20px 20px lightgrey;
+			}
+			#btnPrompt:hover {
+				background-color: deepskyblue;
+				color: white;
+				border: none;
+			}
+			#blur {
+				width: 100%;
+				height: 110%;
+				position: absolute;
+				left:0; right:0; top:0; bottom:0;
+				-webkit-filter: blur(5px);
+				z-index: 9;
+				background-color: white;
+				opacity: 0.8;
+				-webkit-filter: blur(100px);
+				visibility: hidden;
+			}
+			#titleInput {
+				visibility: hidden;
+				position: relative;
+				top: 100px;
+				width: 500px;
+				height: 25px;
+				background-color: white;
+				border: 2px solid deepskyblue;
+				border-radius: 5px;
+				font-size: 20px;
+				z-index: 10;
+				padding: 10px 10px;
+				box-shadow: 20px 20px 20px lightgrey;
+			}
+			#debugAlert {
+				width: 450px;
+				height: 150px;
+				border-radius: 5px;
+				border: 2px solid deepskyblue;
+				background-color: white;
+				position: relative;
+				z-index: 13;
+				top: -400px;
+				box-shadow: 10px 10px 10px lightgrey;
+				visibility: hidden;
+			}			
+			#debuggerBtn {
+				outline: none;
+				border: 1px solid deepskyblue;
+				border-radius: 5px;
+				background-color: white;
+				position: relative;
+				top: -440px;
+				left: 190px;
+				width: 50px;
+				height: 30px;
+				font-family: Helvetica;
+				font-size: 13px;
+				z-index: 23;
+				visibility: hidden;
+			}
+			#debuggerBtn:hover {
+				background-color: deepskyblue;
+				color: white;
+				border: none;
+			}
+			#error {
+				font-family: Helvetica;
+				font-size: 15px;
+			}
+			span {
+				font-size: 50px;
+				font-family: Helvetica;
+				font-weight: lighter;
+				color: deepskyblue;
+			}
+
+			@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+				#dialog {
+					font-size: 50px;
+					height: 650px;
+					top: -1325px;
+				}
+				#inputText {
+					font-size: 30px;
+					height: 50px;
+					top: -1270px;
+				}
+				#mainHeader {
+					height: 175px;
+					background-color: cyan;
+				}
+				.textTitle {
+					right: -35%;
+				}
+				img {
+					right: -36%;
+				}
+			}
+			@media only screen and (min-device-width: 1599px) {
+				#dialog { top: -1350px;}
+				#inputText { top: -1300px;}
+				#btnPrompt { z-index: 35; top: -1075px;}
+			}

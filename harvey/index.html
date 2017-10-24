@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>		
+		<title>Harvey | Home</title>
+		<link rel="stylesheet" href="css/main.css">
+		<meta charset='UTF-8'>
+	</head>
+	<body id="body">
+		<div id="allHeader">
+	      	<div allign="left" id="mainHeader">
+				<p class="textTitle"><br/>Harvey</p>
+			</div>
+		</div>
+		<div id="blur"></div>
+		<center>
+			<!-- Hidden Components -->
+			<input type="text" id="titleInput" placeholder="Type a title"/><br>
+			<center><textarea rows="5" cols="75" id="prompt1" placeholder="Type here"></textarea></center>
+			<center><textarea rows="5" cols="75" id="prompt2" placeholder="Type code here"></textarea></center>
+			<textarea rows="5" cols="75" id="prompt3" value="" placeholder="smartcode"></textarea>
+			<center><input id="btnPrompt" type="button" value="Submit"></center>
+			<center>
+				<div id='debugAlert'>
+					<p id='error'>error</p>
+				</div>
+				<input id='debuggerBtn' type='button' value='Oops!'>
+			</center>
+			<div id="weather" hidden></div>
+			<div id='results' hidden></div>
+			<p hidden>Current Temp: <span id="temp"></span></p>
+			<div id="news_div" hidden></div>
+			<div id="dict_div" hidden></div>
+			<!-- Visible Components -->
+			<br>
+			<div id="all">
+				<div id="dialog"></div>
+				<input type="text" id="inputText" value='Talk to Harvey' autocapitalize="none"/>
+			</div>
+		</center>
+		<script src="scripts/main-script/mainHarvey.js"></script> 
+	</body>
+</html>
