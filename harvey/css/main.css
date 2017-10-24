@@ -33,7 +33,7 @@
 			#all { position: relative;}
 			.textTitle {
 				color: 	#90EE90; 
-				font-family: Comic Sans;
+				font-family: monospace;
 				font-size: 50px;
 				margin-left: 95px;
 				position: relative;
