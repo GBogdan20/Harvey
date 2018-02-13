@@ -247,10 +247,10 @@
 			}
          		@media only screen and (max-device-width: 1024px) and (min-device-width: 481px) {
 				#dialog {
-					top: -760px;
+					top: -800px;
 				}
 				#inputText {
-					top: -700px;
+					top: -720px;
 				}
           		}
 			@media only screen and (min-device-width: 1599px) {
