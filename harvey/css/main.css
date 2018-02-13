@@ -69,7 +69,7 @@
 				-webkit-transition: transform 1s;
 				transition: transform 1s;
 				-webkit-transition-timing-function: ease-in-out;
-				z-index: 0;
+				z-index: 10;
 			}
 			#dialog:hover {
 				transform: scale(1.025, 1.025);
