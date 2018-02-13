@@ -245,6 +245,10 @@
 					right: -36%;
 				}
 			}
+                        @media only screen and (max-device-width: 1024px) {
+				#dialog {
+					top: -1400px;
+				}
 			@media only screen and (min-device-width: 1599px) {
 				#dialog { top: -1350px;}
 				#inputText { top: -1300px;}
